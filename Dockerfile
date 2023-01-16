@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling:latest
+FROM --platform=linux/amd64 kalilinux/kali-rolling:latest
 
 LABEL website="https://github.com/iphoneintosh/kali-docker"
 LABEL description="Kali Linux with XFCE Desktop via VNC and noVNC in browser."
